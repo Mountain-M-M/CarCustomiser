@@ -14,6 +14,8 @@
 		8504243B29745CE4003B4E50 /* CarCustomiserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8504243A29745CE4003B4E50 /* CarCustomiserTests.swift */; };
 		8504244529745CE4003B4E50 /* CarCustomiserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8504244429745CE4003B4E50 /* CarCustomiserUITests.swift */; };
 		8504244729745CE4003B4E50 /* CarCustomiserUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8504244629745CE4003B4E50 /* CarCustomiserUITestsLaunchTests.swift */; };
+		85042454297462CC003B4E50 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85042453297462CC003B4E50 /* Car.swift */; };
+		850424552974635D003B4E50 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85042453297462CC003B4E50 /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,7 @@
 		8504244029745CE4003B4E50 /* CarCustomiserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarCustomiserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8504244429745CE4003B4E50 /* CarCustomiserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCustomiserUITests.swift; sourceTree = "<group>"; };
 		8504244629745CE4003B4E50 /* CarCustomiserUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCustomiserUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		85042453297462CC003B4E50 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,7 @@
 				8504242B29745CE1003B4E50 /* ContentView.swift */,
 				8504242D29745CE4003B4E50 /* Assets.xcassets */,
 				8504242F29745CE4003B4E50 /* Preview Content */,
+				85042453297462CC003B4E50 /* Car.swift */,
 			);
 			path = CarCustomiser;
 			sourceTree = "<group>";
@@ -259,6 +263,7 @@
 			files = (
 				8504242C29745CE1003B4E50 /* ContentView.swift in Sources */,
 				8504242A29745CE1003B4E50 /* CarCustomiserApp.swift in Sources */,
+				85042454297462CC003B4E50 /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				850424552974635D003B4E50 /* Car.swift in Sources */,
 				8504243B29745CE4003B4E50 /* CarCustomiserTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
